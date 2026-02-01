@@ -5,6 +5,7 @@ import type {
   AppState,
   BinaryFiles,
   LibraryItems,
+  NormalizedZoomValue,
 } from '@excalidraw/excalidraw/types';
 import '../styles/ExcalidrawEditor.scss';
 import { ElementService } from '../services/elementService';
@@ -170,7 +171,7 @@ const ExcalidrawEditor = ({ boardId }: ExcalidrawEditorProps) => {
             files,
             appState: {
               theme: currentAppTheme,
-              zoom: { value: 0.2 },
+              zoom: { value: 0.2 as NormalizedZoomValue },
             },
           }}
           onChange={handleChange}
