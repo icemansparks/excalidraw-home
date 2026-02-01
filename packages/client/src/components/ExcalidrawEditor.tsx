@@ -170,6 +170,7 @@ const ExcalidrawEditor = ({ boardId }: ExcalidrawEditorProps) => {
             files,
             appState: {
               theme: currentAppTheme,
+              zoom: { value: 0.2 },
             },
           }}
           onChange={handleChange}
