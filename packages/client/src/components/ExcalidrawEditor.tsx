@@ -181,7 +181,9 @@ const ExcalidrawEditor = ({ boardId }: ExcalidrawEditorProps) => {
             canvasActions: {
               saveToActiveFile: false,
               saveAsImage: true,
-              export: false,
+              export: {
+                saveFileToDisk: true,
+              },
               loadScene: false,
             },
           }}
