@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:docs.excalidraw.com)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:hub.docker.com)",
+      "WebFetch(domain:gitlab.com)",
+      "WebFetch(domain:www.jamesflare.com)",
+      "WebFetch(domain:jihulab.com)",
+      "WebFetch(domain:plus.excalidraw.com)"
+    ]
+  }
+}
